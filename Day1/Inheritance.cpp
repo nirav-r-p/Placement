@@ -59,15 +59,15 @@ class Student:public Person{
 };
 int main(){
    Person *s = new Person();
-   cout<<s->getName()<<" "<<s->getAge()<<endl;
-   s->setName("Nirav");
-   s->setAge(18);
-   cout<<s->getName()<<" "<<s->getAge()<<endl;
+//    cout<<s->getName()<<" "<<s->getAge()<<endl;
+//    s->setName("Nirav");
+//    s->setAge(18);
+//    cout<<s->getName()<<" "<<s->getAge()<<endl;
 
-   Student *st=new Student("Nirav",18);
-   st->setRNo(51);
-   st->setSubject({"C++","DBMS","CN"});
-   st->getSubject();
+//    Student *st=new Student("Nirav",18);
+//    st->setRNo(51);
+//    st->setSubject({"C++","DBMS","CN"});
+//    st->getSubject();
    return 0; 
 }
 
